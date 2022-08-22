@@ -69,7 +69,7 @@ img {
     font-size: 18px;
     font-weight: 500;
     padding: 12px 20px;
-    border-radius: 30px;
+    border-radius: 7px;
 }
 
 /* Numbers Section */
@@ -169,8 +169,92 @@ hr {
     background-color: rgba(255, 250, 101, .3);
 }
 
-.card {}
+.card {
+    padding: 50px 20px;
+    margin-left: 30px;
+    border-radius: 15px;
 
-.card h3 {}
+}
 
-.card p {}
+.card h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.card p {
+    font-size: 16px;
+    color: grey;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* contact-section */
+.contact-section {
+    margin: 100px 0;
+}
+
+.contact-caption {
+    text-align: center;
+}
+
+.contact-caption h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-caption p {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.input-field {
+    width: 50%;
+    margin: auto;
+    background-color: rgba(245, 205, 121, 1.0);
+    padding: 70px 60px;
+    border-radius: 8px;
+}
+
+.email-field {
+    margin-left: 150px;
+}
+
+.email-field input {
+    padding: 15px 50px;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    border-radius: 8px 0 0 8px;
+}
+
+.button-special {
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 20px;
+    border-radius: 0 7px 7px 0;
+    margin-left: -4px;
+}
+
+/* Footer section */
+.footer-section {
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.footer-section h4 {
+    color: crimson;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-section h6 {
+    color: Grey;
+    font-size: 12px;
+}

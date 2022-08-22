@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Banner-section */
+.head-section {
+    background-image: url(./images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    height: 550px;
+    background-position: center 45%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.head-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.banner-caption {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.banner-caption h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.banner-caption h1 span {
+    display: block;
+    color: crimson;
+}
+
+.banner-caption p {
+    width: 50%;
+    margin: auto;
+    font-size: 17px;
+    padding-bottom: 45px;
+    font-weight: 400;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* Numbers Section */
